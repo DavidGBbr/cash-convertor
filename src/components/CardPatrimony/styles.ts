@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px 0px 00px 10px;
+  border-radius: 10px 0px 0px 10px;
   display: flex;
   flex-direction: column;
-  height: 40%;
 `;
 
 export const Logo = styled.span`
@@ -29,13 +28,13 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   padding: 15px;
-  border: 1px solid green;
+  border: 1px solid #228b22;
   border-radius: 10px;
   font-size: 18px;
 `;
 
 export const Result = styled.h3`
-  background: green;
+  background: #228b22;
   margin: 0px auto;
   padding: 10px;
   border-radius: 15px;
